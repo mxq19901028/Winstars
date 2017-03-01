@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6E89C61E473246005647E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6E89C51E473246005647E5 /* AppDelegate.m */; };
+		CF6E89C91E473246005647E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6E89C81E473246005647E5 /* main.m */; };
+		CF6E89CC1E473246005647E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6E89CB1E473246005647E5 /* ViewController.m */; };
+		CF6E89CE1E473247005647E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6E89CD1E473247005647E5 /* Assets.xcassets */; };
+		CF6E89D11E473247005647E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6E89CF1E473247005647E5 /* Main.storyboard */; };
+		CF6E89DC1E473248005647E5 /* MacTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6E89DB1E473248005647E5 /* MacTextTests.m */; };
+		CF6E89E71E473248005647E5 /* MacTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6E89E61E473248005647E5 /* MacTextUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF6E89D81E473248005647E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6E89B91E473246005647E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6E89C01E473246005647E5;
+			remoteInfo = MacText;
+		};
+		CF6E89E31E473248005647E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6E89B91E473246005647E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6E89C01E473246005647E5;
+			remoteInfo = MacText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF6E89C11E473246005647E5 /* MacText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6E89C41E473246005647E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF6E89C51E473246005647E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF6E89C81E473246005647E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6E89CA1E473246005647E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF6E89CB1E473246005647E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF6E89CD1E473247005647E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF6E89D01E473247005647E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF6E89D21E473247005647E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6E89D71E473248005647E5 /* MacTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6E89DB1E473248005647E5 /* MacTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacTextTests.m; sourceTree = "<group>"; };
+		CF6E89DD1E473248005647E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6E89E21E473248005647E5 /* MacTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6E89E61E473248005647E5 /* MacTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacTextUITests.m; sourceTree = "<group>"; };
+		CF6E89E81E473248005647E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF6E89BE1E473246005647E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6E89D41E473248005647E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6E89DF1E473248005647E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6E89B81E473246005647E5 = {
+			isa = PBXGroup;
+			children = (
+				CF6E89C31E473246005647E5 /* MacText */,
+				CF6E89DA1E473248005647E5 /* MacTextTests */,
+				CF6E89E51E473248005647E5 /* MacTextUITests */,
+				CF6E89C21E473246005647E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6E89C21E473246005647E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF6E89C11E473246005647E5 /* MacText.app */,
+				CF6E89D71E473248005647E5 /* MacTextTests.xctest */,
+				CF6E89E21E473248005647E5 /* MacTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF6E89C31E473246005647E5 /* MacText */ = {
+			isa = PBXGroup;
+			children = (
+				CF6E89C41E473246005647E5 /* AppDelegate.h */,
+				CF6E89C51E473246005647E5 /* AppDelegate.m */,
+				CF6E89CA1E473246005647E5 /* ViewController.h */,
+				CF6E89CB1E473246005647E5 /* ViewController.m */,
+				CF6E89CD1E473247005647E5 /* Assets.xcassets */,
+				CF6E89CF1E473247005647E5 /* Main.storyboard */,
+				CF6E89D21E473247005647E5 /* Info.plist */,
+				CF6E89C71E473246005647E5 /* Supporting Files */,
+			);
+			path = MacText;
+			sourceTree = "<group>";
+		};
+		CF6E89C71E473246005647E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6E89C81E473246005647E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF6E89DA1E473248005647E5 /* MacTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF6E89DB1E473248005647E5 /* MacTextTests.m */,
+				CF6E89DD1E473248005647E5 /* Info.plist */,
+			);
+			path = MacTextTests;
+			sourceTree = "<group>";
+		};
+		CF6E89E51E473248005647E5 /* MacTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF6E89E61E473248005647E5 /* MacTextUITests.m */,
+				CF6E89E81E473248005647E5 /* Info.plist */,
+			);
+			path = MacTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF6E89C01E473246005647E5 /* MacText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6E89EB1E473248005647E5 /* Build configuration list for PBXNativeTarget "MacText" */;
+			buildPhases = (
+				CF6E89BD1E473246005647E5 /* Sources */,
+				CF6E89BE1E473246005647E5 /* Frameworks */,
+				CF6E89BF1E473246005647E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacText;
+			productName = MacText;
+			productReference = CF6E89C11E473246005647E5 /* MacText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF6E89D61E473248005647E5 /* MacTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6E89EE1E473248005647E5 /* Build configuration list for PBXNativeTarget "MacTextTests" */;
+			buildPhases = (
+				CF6E89D31E473248005647E5 /* Sources */,
+				CF6E89D41E473248005647E5 /* Frameworks */,
+				CF6E89D51E473248005647E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6E89D91E473248005647E5 /* PBXTargetDependency */,
+			);
+			name = MacTextTests;
+			productName = MacTextTests;
+			productReference = CF6E89D71E473248005647E5 /* MacTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF6E89E11E473248005647E5 /* MacTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6E89F11E473248005647E5 /* Build configuration list for PBXNativeTarget "MacTextUITests" */;
+			buildPhases = (
+				CF6E89DE1E473248005647E5 /* Sources */,
+				CF6E89DF1E473248005647E5 /* Frameworks */,
+				CF6E89E01E473248005647E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6E89E41E473248005647E5 /* PBXTargetDependency */,
+			);
+			name = MacTextUITests;
+			productName = MacTextUITests;
+			productReference = CF6E89E21E473248005647E5 /* MacTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF6E89B91E473246005647E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = winstars;
+				TargetAttributes = {
+					CF6E89C01E473246005647E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H532S3FV7R;
+						ProvisioningStyle = Automatic;
+					};
+					CF6E89D61E473248005647E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H532S3FV7R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF6E89C01E473246005647E5;
+					};
+					CF6E89E11E473248005647E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H532S3FV7R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF6E89C01E473246005647E5;
+					};
+				};
+			};
+			buildConfigurationList = CF6E89BC1E473246005647E5 /* Build configuration list for PBXProject "MacText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF6E89B81E473246005647E5;
+			productRefGroup = CF6E89C21E473246005647E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6E89C01E473246005647E5 /* MacText */,
+				CF6E89D61E473248005647E5 /* MacTextTests */,
+				CF6E89E11E473248005647E5 /* MacTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6E89BF1E473246005647E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6E89CE1E473247005647E5 /* Assets.xcassets in Resources */,
+				CF6E89D11E473247005647E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6E89D51E473248005647E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6E89E01E473248005647E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF6E89BD1E473246005647E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6E89CC1E473246005647E5 /* ViewController.m in Sources */,
+				CF6E89C91E473246005647E5 /* main.m in Sources */,
+				CF6E89C61E473246005647E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6E89D31E473248005647E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6E89DC1E473248005647E5 /* MacTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6E89DE1E473248005647E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6E89E71E473248005647E5 /* MacTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF6E89D91E473248005647E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6E89C01E473246005647E5 /* MacText */;
+			targetProxy = CF6E89D81E473248005647E5 /* PBXContainerItemProxy */;
+		};
+		CF6E89E41E473248005647E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6E89C01E473246005647E5 /* MacText */;
+			targetProxy = CF6E89E31E473248005647E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF6E89CF1E473247005647E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6E89D01E473247005647E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF6E89E91E473248005647E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF6E89EA1E473248005647E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF6E89EC1E473248005647E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H532S3FV7R;
+				INFOPLIST_FILE = MacText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-.www.win-star.MacText";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF6E89ED1E473248005647E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H532S3FV7R;
+				INFOPLIST_FILE = MacText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-.www.win-star.MacText";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF6E89EF1E473248005647E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H532S3FV7R;
+				INFOPLIST_FILE = MacTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-.www.win-star.MacTextTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacText.app/Contents/MacOS/MacText";
+			};
+			name = Debug;
+		};
+		CF6E89F01E473248005647E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H532S3FV7R;
+				INFOPLIST_FILE = MacTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-.www.win-star.MacTextTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacText.app/Contents/MacOS/MacText";
+			};
+			name = Release;
+		};
+		CF6E89F21E473248005647E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H532S3FV7R;
+				INFOPLIST_FILE = MacTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-.www.win-star.MacTextUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacText;
+			};
+			name = Debug;
+		};
+		CF6E89F31E473248005647E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H532S3FV7R;
+				INFOPLIST_FILE = MacTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-.www.win-star.MacTextUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF6E89BC1E473246005647E5 /* Build configuration list for PBXProject "MacText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6E89E91E473248005647E5 /* Debug */,
+				CF6E89EA1E473248005647E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6E89EB1E473248005647E5 /* Build configuration list for PBXNativeTarget "MacText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6E89EC1E473248005647E5 /* Debug */,
+				CF6E89ED1E473248005647E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF6E89EE1E473248005647E5 /* Build configuration list for PBXNativeTarget "MacTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6E89EF1E473248005647E5 /* Debug */,
+				CF6E89F01E473248005647E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF6E89F11E473248005647E5 /* Build configuration list for PBXNativeTarget "MacTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6E89F21E473248005647E5 /* Debug */,
+				CF6E89F31E473248005647E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF6E89B91E473246005647E5 /* Project object */;
+}
